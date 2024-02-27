@@ -14,3 +14,10 @@ The OS kernel has been developed specifically for the RISC-V architecture and is
 The entire project specification, operating modes, call hierarchy, and similar details can be seen in the PDF file or inferred from the project's code.
 
 In this repository, tasks 1, 2, and 3 have been completed.
+
+
+<h3> Neke od komandi za izvrsavanje testova </h3>
+
+- Za pokretanje testova 3 i 4, pokrenuti njihovo izvrsavanje iz Terminala zbog prekida u izvrsavanju preko tastera Esc.
+- Za prekid testova koristi se niz komandi: Ctrl+C A Q Enter.
+- Test 7 treba da udje u nedozvoljeno stanje, zbog pristupa sistemskom registru iz korisnickog rezima (nit B - asm volatile("csrr t6, sepc")).
