@@ -19,5 +19,5 @@ In this repository, tasks 1, 2, and 3 have been completed.
 <h3> Neke od komandi za izvrsavanje testova </h3>
 
 - Za pokretanje testova 3 i 4, pokrenuti njihovo izvrsavanje iz Terminala zbog prekida u izvrsavanju preko tastera Esc.
-- Za prekid testova koristi se niz komandi: Ctrl+C A Q Enter.
+- Za prekid testova koristi se niz komandi: Ctrl+A C Q Enter.
 - Test 7 treba da udje u nedozvoljeno stanje, zbog pristupa sistemskom registru iz korisnickog rezima (nit B - asm volatile("csrr t6, sepc")).
